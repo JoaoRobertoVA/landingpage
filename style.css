@@ -9,7 +9,7 @@ h1 {
 	font-size: 70px;
 	padding: 50px 0 0 0;
     text-shadow: 2px 2px 2px #ffffff;
-	color: #bc00f9;
+	color: #68488c;
 }
 p {
 	font-size: 4vh;
@@ -43,33 +43,34 @@ ul {
 
 }
 .botao {
-	    color: #061456;
+	    color: white;
 	    text-decoration: none;
-	    background-color: rgb(144 144 144);
+	    background-color: #68488c;
 		padding: 6px 5px;
     	border-radius: 5px;
-	    font-size: 22px;
+	    font-size: 4vh;
 	    margin-top: 30px;
 	    font-weight: bold;
+	    opacity: 0.7;
 }
 .botao:hover {
-	background-color: #5a5a5a;
+	background-color: #9069bb;
 
 }
 .segundo-paragrafo {
 	margin-bottom: 5%;
 }
 .Github {
-    	color: #bc00f9;
+    	color: #68488c;
     	text-decoration: none;
     	padding: 6px 8px;
-    	font-size: 40px;
+    	font-size: 5vh;
 }
 .linkedin {
-    	color: #bc00f9;
+    	color: #68488c;
     	text-decoration: none;
     	padding: 6px 8px;
-    	font-size: 40px;
+    	font-size: 5vh;
 }
 .facebook:hover {
 
