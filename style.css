@@ -1,19 +1,18 @@
 body {
 	text-align: center;
-	font-family: sans-serif;
-	background-image: url(imagens/code.jpg);
-	color: black;
-	background-size: cover;
-	display: initial;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    display: contents;
 }
 h1 {
 	font-size: 70px;
 	padding: 50px 0 0 0;
-	text-shadow: 3px 3px 8px #656565;
-	color: #061456;
+    text-shadow: 2px 2px 2px #ffffff;
+	color: #bc00f9;
 }
 p {
-	font-size: 30px;
+	font-size: 4vh;
 	opacity: 0.8;
 	margin: 50px;
 }
@@ -22,13 +21,27 @@ ul {
 	text-align: left;
 }
 .background {
-
-	background-color: #dededee8;
-    position: fixed;
-    top: 18%;
-    right: 21%;
+    background-image: url(imagens/code.jpg);
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    position: absolute;
+	
 }
 
+.black-box {
+
+    background-color: #000000e0;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 1px;
+}
+.contacto {
+    text-align: center;
+
+}
 .botao {
 	    color: #061456;
 	    text-decoration: none;
@@ -44,16 +57,16 @@ ul {
 
 }
 .segundo-paragrafo {
-	margin-bottom: 100px;
+	margin-bottom: 5%;
 }
 .Github {
-    	color: #061456;
+    	color: #bc00f9;
     	text-decoration: none;
     	padding: 6px 8px;
     	font-size: 40px;
 }
 .linkedin {
-    	color: #061456;
+    	color: #bc00f9;
     	text-decoration: none;
     	padding: 6px 8px;
     	font-size: 40px;
@@ -62,10 +75,7 @@ ul {
 
 }
 .lista {
-	list-style: none;
-    margin-bottom: 50px;
-    margin-top: 100px;
-    margin-left: 491px;
+
 }
  
 .lista li {
